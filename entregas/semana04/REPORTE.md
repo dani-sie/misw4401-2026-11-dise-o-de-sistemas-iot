@@ -1,5 +1,7 @@
 # Reporte - Prueba de Rendimiento MQTT (Semana 04)
 
+Este reporte utiliza como insumo los resultados del tutorial de la capa de comunicacion (sesion) desarrollado durante la semana. El objetivo es realizar una prueba de rendimiento del broker MQTT para evaluar la escalabilidad del servicio, usando JMeter, y documentar: diseno de la prueba, configuracion de la herramienta, obtencion de resultados y analisis de resultados.
+
 ## Diseño de la prueba
 
 **Objetivo.** Evaluar la escalabilidad del broker Mosquitto desplegado en la VM (puerto 8082, TLS y autenticación) midiendo:
@@ -12,6 +14,7 @@
 - Broker: Mosquitto en Debian, TLS activo, ACL y usuarios configurados.
 - Cliente de prueba: Apache JMeter con plugin MQTT (mqtt-jmeter).
 - Red: GCP VPC con regla de firewall `tcp:8082`.
+- Nota: No fue posible acceder a AWS Academy, por lo que el despliegue se realizó en una VM de Google Cloud (GCP).
 
 **Variables controladas.**
 - Protocol: SSL
@@ -110,6 +113,11 @@ export JVM_ARGS=\"-Djavax.net.ssl.trustStore=/opt/jmeter/mqtt-ca.jks -Djavax.net
   -l ~/jmeter/resultados_qos0_100.jtl \
   -e -o ~/jmeter/reporte_qos0_100
 ```
+
+**Reportes HTML (para evidencias):**
+- `http://35.185.91.242:8001/reporte_qos0_50/index.html`
+- `http://35.185.91.242:8001/reporte_qos0_100/index.html`
+- `http://35.185.91.242:8001/reporte_qos0_200/index.html`
 
 **Resumen de resultados (completar):**
 
