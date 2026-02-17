@@ -116,8 +116,12 @@ export JVM_ARGS=\"-Djavax.net.ssl.trustStore=/opt/jmeter/mqtt-ca.jks -Djavax.net
 
 **Reportes HTML (para evidencias):**
 - `http://35.185.91.242:8001/reporte_qos0_50/index.html`
+- <img width="1920" height="1850" alt="image" src="https://github.com/user-attachments/assets/ded49f42-dafc-4c4e-aa0e-bf53f44a93d9" />
 - `http://35.185.91.242:8001/reporte_qos0_100/index.html`
+- <img width="1920" height="1832" alt="image" src="https://github.com/user-attachments/assets/541ee19c-137a-4045-ac77-8391a9fd911a" />
 - `http://35.185.91.242:8001/reporte_qos0_200/index.html`
+- <img width="1920" height="1832" alt="image" src="https://github.com/user-attachments/assets/4d2e1f3a-8103-402a-92b9-3b9678465a28" />
+
 
 **Resumen de resultados (completar):**
 
