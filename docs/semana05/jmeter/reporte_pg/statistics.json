@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 5569,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 497.7270605135571,
+    "medianResTime" : 560.0,
+    "minResTime" : 23.0,
+    "maxResTime" : 1108.0,
+    "pct1ResTime" : 695.0,
+    "pct2ResTime" : 728.0,
+    "pct3ResTime" : 812.0,
+    "throughput" : 92.05871656693226,
+    "receivedKBytesPerSec" : 26.790524938423644,
+    "sentKBytesPerSec" : 15.283185367557113
+  },
+  "Top Stations" : {
+    "transaction" : "Top Stations",
+    "sampleCount" : 5569,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 497.7270605135571,
+    "medianResTime" : 560.0,
+    "minResTime" : 23.0,
+    "maxResTime" : 1108.0,
+    "pct1ResTime" : 695.0,
+    "pct2ResTime" : 728.0,
+    "pct3ResTime" : 812.0,
+    "throughput" : 92.05871656693226,
+    "receivedKBytesPerSec" : 26.790524938423644,
+    "sentKBytesPerSec" : 15.283185367557113
+  }
+}
